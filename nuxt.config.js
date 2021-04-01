@@ -90,6 +90,10 @@ export default {
     }
   },
 
+  generate: {
+    dir: 'public'
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend (config, { isDev, isClient, loaders: { vue } }) {
