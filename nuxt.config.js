@@ -1,7 +1,4 @@
 import { I18N } from './config'
-const imageminMozjpeg = require('imagemin-mozjpeg')
-const ImageminPlugin = require('imagemin-webpack-plugin').default
-const isDev = process.env.NODE_ENV !== 'production'
 
 
 export default {
@@ -9,7 +6,7 @@ export default {
     linkActiveClass: 'header-nav__item-active',
   },
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
